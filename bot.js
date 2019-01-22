@@ -3,7 +3,7 @@ const RichEmbed = require("discord.js");
 client.on('message',async message => {
     const moment = require('moment');
 const ms = require('ms')
-    var prefix = '' //بريفكس البوت
+    var prefix = '!' //بريفكس البوت
   var time = moment().format('Do MMMM YYYY , hh:mm');
   var room;
   var title;
